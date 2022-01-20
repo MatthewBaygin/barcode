@@ -180,6 +180,17 @@ function App() {
             className="gridFormView"
           >
             <FormGroup>
+              <label>RА, %</label>
+              <input
+                label="RА, %"
+                type="number"
+                step="0.1"
+                name="RА, %"
+                onChange={handleSubmit}
+                ref={register}
+              />
+            </FormGroup>
+            <FormGroup>
               <label>Т2, %</label>
               <input
                 size="lg"
